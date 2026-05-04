@@ -25,6 +25,7 @@
   "dependencies": {
     "@medusajs/admin-sdk": "2.8.8",
     "@medusajs/cli": "2.8.8",
+    "@medusajs/file-s3": "^2.14.2",
     "@medusajs/framework": "2.8.8",
     "@medusajs/medusa": "2.8.8",
     "@mikro-orm/core": "6.4.3",
@@ -33,6 +34,9 @@
     "@mikro-orm/postgresql": "6.4.3",
     "awilix": "^8.0.1",
     "pg": "^8.13.0"
+  },
+    "resolutions": {
+    "@aws-sdk/client-s3": "3.726.1"
   },
   "devDependencies": {
     "@medusajs/test-utils": "2.8.8",
